@@ -51,7 +51,7 @@ void Panel(bool tryagain)
         Console.Title = "Add Program Name to List";
         Console.WriteLine("Input Program Name: ");
         string IDName = Console.ReadLine();
-        if (IDName == null) { Console.WriteLine("Null Exception Found"); return; }
+        if (IDName == null) { Console.WriteLine("ID Is Null"); return; }
         ListProccesses(IDName);
     }
     else if(sec == "2")
